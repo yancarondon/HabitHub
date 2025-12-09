@@ -9,6 +9,9 @@ export default function RootLayout() {
       <Stack.Screen name="login" />
       <Stack.Screen name="register" />
       <Stack.Screen name="home" />
+      <Stack.Screen name="weekly" />
+      <Stack.Screen name="monthly" />
+      <Stack.Screen name="profile" />
     </Stack>
   );
 }

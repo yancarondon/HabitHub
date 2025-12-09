@@ -1,16 +1,15 @@
-// src/components/homePage.tsx
 import React from "react";
 import { SafeAreaView, StyleSheet, Text, View } from "react-native";
 import Navbar from "./Navbar";
 
-const HomePage = () => {
+const WeeklyStatsPage = () => {
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.container}>
-        <Text style={styles.title}>Home Page</Text>
+        <Text style={styles.title}>Weekly Stats</Text>
         <Text style={styles.subtitle}>
-          This is the main homepage. If you got here from Login, routing is
-          working correctly.
+          This is the weekly stats page. If you got here from the navbar,
+          routing is working correctly.
         </Text>
       </View>
       <Navbar />
@@ -18,7 +17,7 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default WeeklyStatsPage;
 
 const styles = StyleSheet.create({
   safeArea: {
