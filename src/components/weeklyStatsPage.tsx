@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  SafeAreaView,
-  StyleSheet,
-  Text,
-  View,
-  ScrollView,
-} from "react-native";
+import { SafeAreaView, StyleSheet, Text, View, ScrollView } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import Navbar from "./Navbar";
 
@@ -144,9 +138,7 @@ const WeeklyStatsPage = () => {
               <View style={styles.legend}>
                 <View style={styles.legendItem}>
                   <View style={[styles.legendDot, styles.legendCompleted]} />
-                  <Text style={styles.legendText}>
-                    Completed ({completed})
-                  </Text>
+                  <Text style={styles.legendText}>Completed ({completed})</Text>
                 </View>
                 <View style={styles.legendItem}>
                   <View style={[styles.legendDot, styles.legendIncomplete]} />
@@ -187,9 +179,7 @@ const WeeklyStatsPage = () => {
             </View>
             <View style={styles.highlightItem}>
               <Ionicons name="star" size={20} color="#FFD700" />
-              <Text style={styles.highlightText}>
-                3 perfect days this week
-              </Text>
+              <Text style={styles.highlightText}>3 perfect days this week</Text>
             </View>
             <View style={styles.highlightItem}>
               <Ionicons name="trending-up" size={20} color="#4CAF50" />
